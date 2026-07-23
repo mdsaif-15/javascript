@@ -54,3 +54,38 @@ console.log(unique)
 let d = true
 
 console.log(typeof (a))
+
+// refrence datatype 
+
+// 1) Array ----
+
+let arr = [10, 24, true, null, 2.5];
+console.log(typeof (arr));
+
+console.log(arr[0]);
+console.log(typeof (arr[2]));
+
+// 2) Object ---- key & value pair combination
+
+let obj1 = {
+    roll: 1,
+    "name": "saif",
+    "class": "2nd year"
+}
+
+let obj2 = {
+    roll: 2,
+    "name": "rahul",
+    "class": "2nd year"
+}
+
+// 3) function ----
+
+// her num1 and num2 is paramerter
+function add(num1, num2) {
+    return num1 + num2;
+};
+
+// 23,45 are the argument 
+console.log(add(23, 45));
+
