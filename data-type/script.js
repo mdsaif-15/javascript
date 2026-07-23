@@ -52,4 +52,5 @@ console.log(unique)
 // 7) boolean ----
 
 let d = true
-console.log(typeof (d))
+
+console.log(typeof (a))
