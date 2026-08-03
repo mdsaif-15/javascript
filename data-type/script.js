@@ -1,4 +1,4 @@
-// Data type 
+// Data type in javascript
 
 // primintive data types 
 
