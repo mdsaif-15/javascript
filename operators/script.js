@@ -40,3 +40,15 @@ console.log(a %= 3);
 
 // 3) Comperison operator...
 
+// == 
+
+console.log(12==12);
+console.log(12==13);
+console.log(12=="12.00");
+
+// ===
+
+console.log(12===12);
+console.log(12==="12.00");
+console.log(12===13);
+
