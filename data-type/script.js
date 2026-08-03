@@ -1,8 +1,8 @@
 // Data type in javascript
 
-// primintive data types 
+// Primintive data types 
 
-// 1) string ----
+// 1) String ----
 
 
 let name = "Saif";
@@ -10,7 +10,7 @@ let name = "Saif";
 document.write(typeof (name) + "<br>");
 
 
-// 2) number ----
+// 2) Number ----
 
 let Roll = 34;
 document.write(typeof (Roll) + "<br>");
@@ -22,13 +22,13 @@ console.log(typeof (num2));
 console.log(typeof (num3));
 
 
-// 3) big int ----
+// 3) Big int ----
 
 let bigint = 1232346723n;
 
 console.log(typeof (bigint));
 
-// 4) undefined -----
+// 4) Undefined -----
 
 
 let a;
@@ -37,25 +37,25 @@ console.log(typeof (a));
 let b = undefined;
 console.log(typeof (b));
 
-// 5) null----
+// 5) Null----
 
 
 let c = null;
 console.log(typeof (c));
 
-// 6) symbol
+// 6) Symbol
 
 let unique = Symbol("name");
 console.log(typeof (unique));
 console.log(unique)
 
-// 7) boolean ----
+// 7) Boolean ----
 
 let d = true
 
 console.log(typeof (a))
 
-// refrence datatype 
+// Refrence datatype 
 
 // 1) Array ----
 
@@ -79,7 +79,7 @@ let obj2 = {
     "class": "2nd year"
 }
 
-// 3) function ----
+// 3) Function ----
 
 // her num1 and num2 is paramerter
 function add(num1, num2) {
