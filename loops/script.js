@@ -25,9 +25,33 @@ document.writeln("loop", "</br>");
 
 // do while loop ----
 
-let i = 10;
+// let i = 10;
 
-do {
-    console.log(i);
-    i--;
-} while (i >= 1);
+// do {
+//     console.log(i);
+//     i--;
+// } while (i >= 1);
+
+
+let studentData =
+    [
+        "nadeem",
+        "shail",
+        "bipin",
+        "nitesh",
+        "vimal",
+        "aakash"
+    ];
+
+for(let i = 0;i<=studentData.length;i++){
+    if(studentData[i]=="nitesh"){
+        continue;
+    }
+    if(studentData[i]=="bipin"){
+        continue;
+    }
+    if(studentData[i]=="vimal"){
+        break;
+    }
+    console.log(studentData[i]);
+}
