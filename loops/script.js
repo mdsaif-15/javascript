@@ -7,18 +7,27 @@ document.writeln("loop", "</br>");
 //     console.log(t + " X " + i + " = " + i * t + "<br>");
 // }
 
-// while loop----
+// while loop ----
 
-let stopInstraction = ""
-let i = 0;
-while (i <= 100) {
+// let stopInstraction = ""
+// let i = 0;
+// while (i <= 100) {
+//     console.log(i);
+//     if (i === 56) {
+//         stopInstraction = "stop"
+//     }
+//     if (stopInstraction === "stop") {
+//         break;
+//     }
+//     i++;
+// }
+
+
+// do while loop ----
+
+let i = 10;
+
+do {
     console.log(i);
-    if (i === 56) {
-        stopInstraction = "stop"
-    }
-    if (stopInstraction === "stop") {
-        break;
-    }
-    i++;
-}
-
+    i--;
+} while (i >= 1);
