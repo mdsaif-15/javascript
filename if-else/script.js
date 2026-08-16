@@ -32,3 +32,30 @@ else {
 // falsy values -> null, undefined, 0, -1, t'', NaN, On 
 // truthy values-> rest all
 
+//switch case 
+
+let day = "monday"
+
+switch (day){
+    case "monday":
+        console.log("working day");
+        break;
+    case "tuesday":
+        console.log("working day");
+        break;
+    case "wednesday":
+        console.log("working day");
+        break;
+    case "thusday":
+        console.log("working day");
+        break;
+    case "friday":
+        console.log("working day");
+        break;
+    case "saturday":
+        console.log("not working day");
+        break;
+    case "sunday":
+        console.log("not working day");
+        break;
+}
