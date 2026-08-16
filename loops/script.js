@@ -9,8 +9,16 @@ document.writeln("loop", "</br>");
 
 // while loop----
 
+let stopInstraction = ""
 let i = 0;
 while (i <= 100) {
     console.log(i);
+    if (i === 56) {
+        stopInstraction = "stop"
+    }
+    if (stopInstraction === "stop") {
+        break;
+    }
     i++;
 }
+
