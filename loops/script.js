@@ -1,36 +1,36 @@
 document.writeln("loop", "</br>");
 
-//let t = prompt("enter the number");
+let t = prompt("enter the number");
 
-// for (let i = 1; i <= 10; i++) {
-//     document.write(`${t} X ${i} = ${t * i}<br>`);
-//     console.log(t + " X " + i + " = " + i * t + "<br>");
-// }
+for (let i = 1; i <= 10; i++) {
+    document.write(`${t} X ${i} = ${t * i}<br>`);
+    console.log(t + " X " + i + " = " + i * t + "<br>");
+}
 
-// while loop ----
+//while loop ----
 
-// let stopInstraction = ""
-// let i = 0;
-// while (i <= 100) {
-//     console.log(i);
-//     if (i === 56) {
-//         stopInstraction = "stop"
-//     }
-//     if (stopInstraction === "stop") {
-//         break;
-//     }
-//     i++;
-// }
+let stopInstraction = ""
+let i = 0;
+while (i <= 100) {
+    console.log(i);
+    if (i === 56) {
+        stopInstraction = "stop"
+    }
+    if (stopInstraction === "stop") {
+        break;
+    }
+    i++;
+}
 
 
-// do while loop ----
+//do while loop ----
 
-// let i = 10;
+//let i = 10;
 
-// do {
-//     console.log(i);
-//     i--;
-// } while (i >= 1);
+do {
+    console.log(i);
+    i--;
+} while (i >= 1);
 
 
 let studentData =
@@ -43,15 +43,27 @@ let studentData =
         "aakash"
     ];
 
-for(let i = 0;i<=studentData.length;i++){
-    if(studentData[i]=="nitesh"){
+for (let i = 0; i <= studentData.length; i++) {
+    if (studentData[i] == "nitesh") {
         continue;
     }
-    if(studentData[i]=="bipin"){
+    if (studentData[i] == "bipin") {
         continue;
     }
-    if(studentData[i]=="vimal"){
+    if (studentData[i] == "vimal") {
         break;
     }
     console.log(studentData[i]);
+}
+
+// label ----
+
+outerloop:
+for (let i = 0; i < 2; i++) {
+    for (let j = 0; j < 2; j++) {
+        if (i == 1 && j == 1) {
+            break outerloop;
+        }
+        console.log(i, j)
+    }
 }
